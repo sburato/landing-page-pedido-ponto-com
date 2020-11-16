@@ -197,11 +197,11 @@
     </footer>
 
     <!-- Formulário modal para contato -->    
-    <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <dialog class="modal-content">
           <header class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
+            <h5 class="modal-title" id="ModalLabel">Entre em contato</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -209,27 +209,29 @@
           <main class="modal-body">
             <form>
               <div class="form-group">
-                <label for="formGroupExampleInput">Nome completo</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Insira o seu nome completo">
+                <label for="formGroupInput">Nome completo</label>
+                <input type="text" class="form-control" id="formGroupInput" placeholder="Insira o seu nome completo">
               </div>            
               <div class="form-group">
-                <label for="exampleFormControlInput1">Endereço de email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Insira o seu endereço de email">
+                <label for="formControlInput">Endereço de email</label>
+                <input type="email" class="form-control" id="formControlInput" placeholder="Insira o seu endereço de email">
               </div>
               <div class="form-group">
-                <label for="exampleFormControlTextarea1">Deixe o seu comentário</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1"  placeholder="Insera aqui o seu comentário" rows="3"></textarea>
+                <label for="formControlTextarea">Deixe o seu comentário</label>
+                <textarea class="form-control" id="formControlTextarea"  placeholder="Insera aqui o seu comentário" rows="3"></textarea>
               </div>
             </form>
           </main>
           <footer class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            <button type="button" class="btn botao-cor-especial">Enviar</button>
+            <button type="button" class="btn btn-primary">Enviar</button>
           </footer>
         </dialog>
       </div>
-    </div>    
+    </div>  
 
+    <!-- Para o Bootstrap e o font-awewome funcionar corretamente, precisamos adicionar alguns componentes que 
+      fazem uso do JavaScript, como o jQuery, all.min.js e o arquivo bootstrap.min.js . -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
